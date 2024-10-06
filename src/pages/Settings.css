@@ -1,0 +1,46 @@
+.settings {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(105, 4, 4, 0.839);
+  border-radius: 8px; 
+}
+
+.setting-section {
+  margin-bottom: 20px;
+  border: 1px solid #800000; 
+  padding: 10px; 
+  border-radius: 6px; 
+  
+}
+
+.setting-section h3 {
+  margin: 0 0 10px 0;
+}
+
+.setting-section input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #800000; 
+}
+
+.setting-section button {
+  padding: 8px 12px;
+  background-color: #800000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.setting-section button:hover {
+  background-color: #660000;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}

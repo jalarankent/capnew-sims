@@ -1,0 +1,141 @@
+.scanner-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(105, 4, 4, 0.839); 
+}
+
+h1 {
+  text-align: center;
+  color: #800000; 
+  margin-bottom: 20px;
+}
+
+.barcode-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #800000; 
+  border-radius: 5px;
+  width: 150px;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #800000; 
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.5); 
+}
+
+.btn-scan,
+.btn-search,
+.btn-toggle-camera,
+.btn-toggle-items,
+.btn-copy-barcode {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #800000; 
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.5); /* Maroon shadow */
+}
+
+.btn-scan:hover,
+.btn-search:hover,
+.btn-toggle-camera:hover,
+.btn-toggle-items:hover,
+.btn-copy-barcode:hover {
+  background-color: #660000;
+  transform: scale(1.05);
+}
+
+.message {
+  color: #800000; 
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.camera-preview {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.camera-select {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.camera-select select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #800000; 
+}
+
+.items-list {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(128, 0, 0, 0.2); 
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.items-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.items-list li {
+  padding: 10px;
+  border-bottom: 1px solid #800000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items-list li:last-child {
+  border-bottom: none;
+}
+
+.btn-copy-barcode {
+  background-color: #800000; 
+}
+
+.btn-copy-barcode:hover {
+  background-color: #660000; 
+}
+
+.search-result {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(128, 0, 0, 0.2); 
+  margin-top: 20px;
+}
+
+.search-result h2 {
+  color: #800000; 
+}
+
+.search-result p {
+  margin: 5px 0;
+}
